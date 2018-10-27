@@ -1,0 +1,16 @@
+{
+    "name": "mpaic/flight-management",
+    "description": "Managing flight organization",
+    "authors": [
+        {
+            "name": "Mladen Paic",
+            "email": "paic.m@live.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.1"
+    },
+    "autoload": {
+        "psr-4": { "": "src/" }
+    }
+}
