@@ -13,6 +13,7 @@ $flightData    = $dataGenerator->generateFlightData(2, 10);
 // Todo: Validate weight of Luggage
 
 $flight = new Flight('awra', 2000, $flightData['pilots'], ...$flightData['passengers']);
+echo "bla";
 
 // This 2 methods are empty, called them just for demonstration of how things should work
 $flight->start();
