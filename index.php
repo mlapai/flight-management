@@ -12,7 +12,7 @@ $flightData    = $dataGenerator->generateFlightData(2, 10);
 // Todo: Any passenger or pilot violating the constraints should be removed from the flight
 // Todo: Validate weight of Luggage
 
-$flight = new Flight('awra', 2000, $flightData['pilots'], ...$flightData['passengers']);
+$flight = new Flight('Swag', 2000, $flightData['pilots'], ...$flightData['passengers']);
 
 // Todo: Implement start stop
 $flight->start();
