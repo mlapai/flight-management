@@ -14,11 +14,10 @@ $flightData    = $dataGenerator->generateFlightData(2, 10);
 
 $flight = new Flight('awra', 2000, $flightData['pilots'], ...$flightData['passengers']);
 
-// This 2 methods are empty, called them just for demonstration of how things should work
+// Todo: Implement start stop
 $flight->start();
 $flight->end();
 
 // Todo: Log weight of lost Luggage, and Passengers related to them
 
-// Unfortunately i had no time to format this print better
 print_r($flight);
